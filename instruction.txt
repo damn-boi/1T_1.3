@@ -1,4 +1,4 @@
-1) Перейдем в папку с dockerfile: cd C:\Users\funny\OneDrive\Рабочий стол\1T\docker\db
+1) Перейдем в папку с dockerfile: cd .\docker\db
 2) Создадим образ в текущей директории: docker build -t test_image:latest .
 3) Проверим, создан ли образ: docker images
 4) Запустим контейнер: docker run -d -p 5432:5432 --name test_container test_image:latest
